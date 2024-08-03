@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
+// Importer le logger
+const logger = require('./logger');
 
 let tasks = [];
-
 
 /**
  * @swagger
